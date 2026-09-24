@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    margin: 0;
+    display: block;
+    font-family: "DM Sans";
+    background-color: #9EC8B9;
+}
+
+.dm-sans> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bitcount-prop-single> {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.top-container {
+    background-color: #091413;
+    width: 100%;
+    display: grid;
+}
+
+.title-text {
+    color: #B0E4CC;
+}
+
+h1{
+    font-size: 100%;
+    font-weight: bold;
+    font-family: "Bitcount Prop Single";
+    color: greenyellow;
+}
+
+h2{
+    font-size: 2.5rem; 
+    color: #285A48;
+}
+span {
+    text-decoration: underline;
+}
+
+.code {
+    border-radius: 1%;
+    width: 100%;
+    height: 100%;
+     -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
+
+.profile{
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.puntos {
+  border: none;             /* Quitamos el borde sólido por defecto */
+  border-top: 5px dotted;   /* Definimos el grosor y el estilo de puntos */
+  color: #808080;           /* Color de los puntos */
+  width: 10%;               /* Ancho de la línea */
+  margin: 50px auto;        /* Espaciado arriba/abajo y centrado */
+}
+
+.btn {
+    background-color: #285A48;
+    border-color: #285A48;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: white;
+    color: #285A48;
+}
